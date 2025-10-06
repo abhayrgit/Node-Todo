@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git credentialsId: 'your-credentials-id', url: 'https://github.com/your-username/your-repo.git', branch: 'main'
+                git url: 'https://github.com/abhayrgit/Node-Todo.git', branch: 'main'
             }
         }
 
